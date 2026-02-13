@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-09T12:45:41.662311",
+    "config": {
+      "neo4j_uri": "bolt://54.174.185.202",
+      "use_fast_mode": true,
+      "sample_size": 50000,
+      "fetch_size": 2000
+    }
+  },
+  "results": {
+    "Stream": {
+      "createdAt": {
+        "unique_values": 4498,
+        "total_values": 4540,
+        "unique_ratio": 0.9907488986784141,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      },
+      "id": {
+        "unique_values": 4498,
+        "total_values": 4540,
+        "unique_ratio": 0.9907488986784141,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      },
+      "description": {
+        "unique_values": 3892,
+        "total_values": 4540,
+        "unique_ratio": 0.8572687224669604,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      },
+      "url": {
+        "unique_values": 4540,
+        "total_values": 4540,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "name": {
+        "unique_values": 4540,
+        "total_values": 4540,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "followers": {
+        "unique_values": 4461,
+        "total_values": 4540,
+        "unique_ratio": 0.9825991189427313,
+        "type": "SEMI_UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "total_view_count": {
+        "unique_values": 4494,
+        "total_values": 4540,
+        "unique_ratio": 0.9898678414096916,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      }
+    },
+    "Game": {
+      "name": {
+        "unique_values": 594,
+        "total_values": 594,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      }
+    },
+    "Language": {
+      "name": {
+        "unique_values": 29,
+        "total_values": 29,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      }
+    },
+    "User": {
+      "createdAt": {
+        "unique_values": 4498,
+        "total_values": 4678779,
+        "unique_ratio": 0.0009613619279730887,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674281,
+        "sample_categorical_values": {
+          "2011-12-01T06:33:31.487567000+00:00": 1,
+          "2013-11-02T14:39:22.483111000+00:00": 1,
+          "2018-04-12T14:50:12.428980000+00:00": 1,
+          "2012-04-28T03:03:56.967712000+00:00": 1,
+          "2010-03-09T06:47:08.075757000+00:00": 1,
+          "2017-06-17T12:43:43.101537000+00:00": 1,
+          "2013-10-24T19:04:45.512189000+00:00": 1,
+          "2016-05-29T05:04:11.513045000+00:00": 1,
+          "2012-12-19T05:42:05.829844000+00:00": 1,
+          "2016-07-08T21:50:35.504924000+00:00": 1
+        }
+      },
+      "id": {
+        "unique_values": 4498,
+        "total_values": 4678779,
+        "unique_ratio": 0.0009613619279730887,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674281,
+        "sample_categorical_values": {
+          "26490481": 1,
+          "50988750": 1,
+          "213749122": 1,
+          "30104304": 1,
+          "10985633": 1,
+          "160504245": 1,
+          "50597026": 1,
+          "125387632": 1,
+          "38594688": 1,
+          "129004176": 1
+        }
+      },
+      "description": {
+        "unique_values": 3892,
+        "total_values": 4678779,
+        "unique_ratio": 0.0008318409567966344,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674281,
+        "sample_categorical_values": {
+          "": 586,
+          "The Holy Grail of esports!": 4,
+          ":)": 3,
+          "The SpeedGaming channel hosts a variety of speedrun events and tournaments.  To host your event here, or to learn more about us, contact feasel@speedgaming.org ~~~~ http://twitch.tv/SpeedGaming ~~ http://SpeedGaming.org ~~ http://twitter.com/SpeedGamingShow ~~ http://youtube.com/SpeedGamingChannel": 3,
+          "\"Welcome to our beta test of Player POV's! We're testing a new feature to allow you to enjoy CS:GO through the players eyes. Remember this is a beta so there may be bugs !\"": 3,
+          "Hallo": 2,
+          "Hi. ": 2,
+          "I like games.": 2,
+          "hi :)": 2,
+          "Esport organization & WebTV on Fortnite, League of Legends & HearthStone \ud83c\uddeb\ud83c\uddf7 powered by LogitechGFrance PredatorFrance & Objectif Code #SLYWIN \ud83d\udce7 contact@solary.fr": 2
+        }
+      },
+      "url": {
+        "unique_values": 4540,
+        "total_values": 4678779,
+        "unique_ratio": 0.0009703386289457143,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674239,
+        "sample_categorical_values": {
+          "https://www.twitch.tv/summit1g": 1,
+          "https://www.twitch.tv/stylishnoob4": 1,
+          "https://www.twitch.tv/dota2mc_ru": 1,
+          "https://www.twitch.tv/maximilian_dood": 1,
+          "https://www.twitch.tv/spygea": 1,
+          "https://www.twitch.tv/39daph": 1,
+          "https://www.twitch.tv/ponce": 1,
+          "https://www.twitch.tv/amouranth": 1,
+          "https://www.twitch.tv/fresh": 1,
+          "https://www.twitch.tv/itsbigchase": 1
+        }
+      },
+      "name": {
+        "unique_values": 4678779,
+        "total_values": 4678779,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "followers": {
+        "unique_values": 4461,
+        "total_values": 4678779,
+        "unique_ratio": 0.0009534538818781567,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674239,
+        "sample_categorical_values": {
+          "1": 6,
+          "2": 4,
+          "4203": 3,
+          "306": 3,
+          "5": 3,
+          "23845": 3,
+          "17173": 3,
+          "29376": 2,
+          "22813": 2,
+          "53681": 2
+        }
+      },
+      "total_view_count": {
+        "unique_values": 4494,
+        "total_values": 4678779,
+        "unique_ratio": 0.0009605070040709339,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674281,
+        "sample_categorical_values": {
+          "450": 2,
+          "3396116": 2,
+          "188348": 2,
+          "542": 2,
+          "42184608": 1,
+          "20179319": 1,
+          "81285942": 1,
+          "56560642": 1,
+          "72083556": 1,
+          "214563620": 1
+        }
+      }
+    },
+    "Team": {
+      "createdAt": {
+        "unique_values": 1468,
+        "total_values": 1468,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "name": {
+        "unique_values": 1466,
+        "total_values": 1468,
+        "unique_ratio": 0.9986376021798365,
+        "type": "SEMI_UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "id": {
+        "unique_values": 1468,
+        "total_values": 1468,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      }
+    }
+  }
+}

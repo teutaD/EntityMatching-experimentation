@@ -1,0 +1,6 @@
+# Neo4j GDS Property Projection Requirements
+
+# Core dependencies
+neo4j>=5.0.0,<6.0.0
+pandas>=1.5.0
+

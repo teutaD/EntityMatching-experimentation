@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-09T12:43:55.288250",
+    "config": {
+      "neo4j_uri": "bolt://54.174.185.202",
+      "use_fast_mode": true,
+      "sample_size": 50000,
+      "fetch_size": 2000
+    }
+  },
+  "results": {
+    "Stream": {
+      "createdAt": {
+        "unique_values": 4498,
+        "total_values": 4540,
+        "unique_ratio": 0.9907488986784141,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      },
+      "id": {
+        "unique_values": 4498,
+        "total_values": 4540,
+        "unique_ratio": 0.9907488986784141,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      },
+      "description": {
+        "unique_values": 3892,
+        "total_values": 4540,
+        "unique_ratio": 0.8572687224669604,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      },
+      "url": {
+        "unique_values": 4540,
+        "total_values": 4540,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "name": {
+        "unique_values": 4540,
+        "total_values": 4540,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "followers": {
+        "unique_values": 4461,
+        "total_values": 4540,
+        "unique_ratio": 0.9825991189427313,
+        "type": "SEMI_UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      },
+      "total_view_count": {
+        "unique_values": 4494,
+        "total_values": 4540,
+        "unique_ratio": 0.9898678414096916,
+        "type": "SEMI_UNIQUE",
+        "null_count": 42,
+        "sample_categorical_values": null
+      }
+    },
+    "Game": {
+      "name": {
+        "unique_values": 594,
+        "total_values": 594,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      }
+    },
+    "Language": {
+      "name": {
+        "unique_values": 29,
+        "total_values": 29,
+        "unique_ratio": 1.0,
+        "type": "UNIQUE",
+        "null_count": 0,
+        "sample_categorical_values": null
+      }
+    },
+    "User": {
+      "createdAt": {
+        "unique_values": 4498,
+        "total_values": 4678779,
+        "unique_ratio": 0.0009613619279730887,
+        "type": "HIGHLY_CATEGORICAL",
+        "null_count": 4674281,
+        "sample_categorical_values": {
+          

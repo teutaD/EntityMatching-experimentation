@@ -1,0 +1,105 @@
+======================================================================
+PERFORMANCE REPORT
+======================================================================
+Generated: 2026-02-09 16:01:49
+
+CONFIGURATION:
+----------------------------------------------------------------------
+  neo4j_uri: bolt://54.174.185.202
+  use_fast_mode: True
+  sample_size: 50000
+  fetch_size: 2000
+
+SUMMARY:
+----------------------------------------------------------------------
+Total Time: 50.312s
+Total Operations: 35
+Peak Memory: 294.4 MB
+Total Memory Delta: -78.7 MB
+
+BY OPERATION:
+----------------------------------------------------------------------
+
+  get_node_labels:
+    Count: 1
+    Total Time: 0.695s
+    Average Time: 0.695s
+    Min Time: 0.695s
+    Max Time: 0.695s
+    Avg Memory Delta: +0.9 MB
+    Max Memory Delta: +0.9 MB
+
+  get_property_summary_fast:
+    Count: 5
+    Total Time: 24.809s
+    Average Time: 4.962s
+    Min Time: 0.413s
+    Max Time: 21.898s
+    Avg Memory Delta: -8.0 MB
+    Max Memory Delta: +0.0 MB
+
+  get_property_keys:
+    Count: 5
+    Total Time: 0.751s
+    Average Time: 0.150s
+    Min Time: 0.135s
+    Max Time: 0.194s
+    Avg Memory Delta: +0.0 MB
+    Max Memory Delta: +0.0 MB
+
+  get_node_count:
+    Count: 5
+    Total Time: 0.796s
+    Average Time: 0.159s
+    Min Time: 0.129s
+    Max Time: 0.210s
+    Avg Memory Delta: -0.0 MB
+    Max Memory Delta: +0.0 MB
+
+  analyze_property_cypher:
+    Count: 19
+    Total Time: 23.261s
+    Average Time: 1.224s
+    Min Time: 0.131s
+    Max Time: 5.047s
+    Avg Memory Delta: -2.1 MB
+    Max Memory Delta: +0.0 MB
+
+TIMELINE:
+----------------------------------------------------------------------
+  1. get_node_labels                              0.695s | Δmem: +0.9MB
+  2. get_property_summary_fast                    1.318s | label=Stream, mode=fast
+  3. get_property_keys                            0.135s | label=Stream
+  4. get_node_count                               0.187s | label=Stream
+  5. analyze_property_cypher                      0.135s | label=Stream, property=createdAt
+  6. analyze_property_cypher                      0.144s | label=Stream, property=id
+  7. analyze_property_cypher                      0.142s | label=Stream, property=description
+  8. analyze_property_cypher                      0.149s | label=Stream, property=url
+  9. analyze_property_cypher                      0.140s | label=Stream, property=name
+ 10. analyze_property_cypher                      0.136s | label=Stream, property=followers
+ 11. analyze_property_cypher                      0.150s | label=Stream, property=total_view_count
+ 12. get_property_summary_fast                    0.413s | Δmem: +0.0MB | label=Game, mode=fast
+ 13. get_property_keys                            0.135s | Δmem: +0.0MB | label=Game
+ 14. get_node_count                               0.137s | Δmem: +0.0MB | label=Game
+ 15. analyze_property_cypher                      0.142s | label=Game, property=name
+ 16. get_property_summary_fast                    0.483s | Δmem: -0.0MB | label=Language, mode=fast
+ 17. get_property_keys                            0.142s | label=Language
+ 18. get_node_count                               0.210s | Δmem: -0.0MB | label=Language
+ 19. analyze_property_cypher                      0.131s | label=Language, property=name
+ 20. get_property_summary_fast                   21.898s | Δmem: -39.8MB | label=User, mode=fast
+ 21. get_property_keys                            0.194s | label=User
+ 22. get_node_count                               0.129s | label=User
+ 23. analyze_property_cypher                      2.727s | Δmem: +0.0MB | label=User, property=createdAt
+ 24. analyze_property_cypher                      2.757s | label=User, property=id
+ 25. analyze_property_cypher                      2.805s | label=User, property=description
+ 26. analyze_property_cypher                      2.687s | label=User, property=url
+ 27. analyze_property_cypher                      5.047s | Δmem: -39.8MB | label=User, property=name
+ 28. analyze_property_cypher                      2.884s | label=User, property=followers
+ 29. analyze_property_cypher                      2.668s | Δmem: +0.0MB | label=User, property=total_view_count
+ 30. get_property_summary_fast                    0.698s | label=Team, mode=fast
+ 31. get_property_keys                            0.145s | label=Team
+ 32. get_node_count                               0.134s | label=Team
+ 33. analyze_property_cypher                      0.134s | label=Team, property=createdAt
+ 34. analyze_property_cypher                      0.151s | label=Team, property=name
+ 35. analyze_property_cypher                      0.133s | label=Team, property=id
+======================================================================
